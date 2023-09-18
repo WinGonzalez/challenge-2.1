@@ -26,8 +26,12 @@ head{
   color: black;
 }
 
-
-
+#box1{
+  scroll-behavior: smooth;
+}
+#col{
+  scroll-behavior: smooth;
+}
   .hero-image {
     height: 40vh; /* 40% of the viewport height */
     background-position: center;
@@ -79,6 +83,7 @@ head{
 .col {
     flex: 0 0 50%;
     text-align: center;
+    
 }
 
 .col-left {
